@@ -1,16 +1,14 @@
 #include <stdio.h>
-/**	
- *main - Entry point
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int b;
-
-	for (b = '0'; b <= '9'; b++)
-		putchar(b);
-		putchar('\n');
-
-	return (0);
+int numberz;
+for (numberz = 0; numberz < 10; numberz++)
+putchar((numberz % 10) + '0');
+putchar('\n');
+return (0);
 }
