@@ -2,6 +2,6 @@
 
 <ul>
 	<li>if</li>
-	<li<else</li>
+	<li>else</li>
 	<li>while</li>
 </ul>		
